@@ -1,0 +1,131 @@
+<!-- Navbar -->
+<div style="overflow-x: hidden">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #073B4C;">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-4" href="#" style="color:rgb(227, 219, 219);font-size: 35px;">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="font-size: 20px;">
+                    <a class="nav-link active mx-3" aria-current="page" href="#"
+                        style="color:rgb(227, 219, 219)">Home</a>
+                    <a class="nav-link mx-3" href="#" style="color:rgb(227, 219, 219)">About Me</a>
+                    <a class="nav-link mx-3" href="#" style="color:rgb(227, 219, 219)">Pricing</a>
+                    <a class="nav-link mx-3" href="#" tabindex="-1" aria-disabled="true"
+                        style="color:rgb(227, 219, 219)">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="background-color:#ff006a">
+        <div class="row py-5">
+            <div class="col-8 mt-5 ps-5" style="color: rgb(227, 219, 219);">
+                <div class="row mt-4">
+                    <p style="font-size:50px;margin-bottom: 0px;">Hey! I am Alisha Riya Francis</p>
+                </div>
+                <div class="row">
+                    <p style="font-size:45px;">Front-End Developer</p>
+                </div>
+                <div class="row">
+                    <p style="font-size: 23px;">High level experience in web designing, producing quality work.</p>
+                </div>
+            </div>
+            <div class="col-3">
+
+                <img src="../../../assets/images/pp.jpg" height="350px" width="350px"
+                    style="border-radius: 50%;border: solid 4px rgb(227, 219, 219) ;">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row py-5" style="background-color: rgb(238, 234, 234);">
+        <div class="row">
+            <h2 class="d-flex justify-content-center" style="color:#ff006a">About me</h2>
+            <h6 class="d-flex justify-content-center">UI/UX designer</h6>
+        </div>
+        <div class="row">
+            <div class="col-6 d-flex justify-content-center">
+                <img src="../../../assets/images/pp.jpg" height="230px" width="230px"
+                    style="border-radius: 50%;border:solid 4px #ff006a">
+            </div>
+            <div class="col-6 mt-5">
+                <div class="row">
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique
+                        quibusdam?
+                        Dolore beatae exercitationem maiores nemo aut dignissimos assumenda incidunt aliquid ad aliquam
+                        suscipit
+                        laboriosam, magnam, rem itaque!</span>
+                </div>
+                <div class="row mt-4 px-3">
+                    <button class="btn" style="width:150px;background-color:#ff006a;color:rgb(227, 219, 219)">Download
+                        CV</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="row " style="background-color:#118AB2;">
+        <div class="row">
+            <h2 class="d-flex justify-content-center py-3" style="color: white">Skills</h2>
+            <div class="col-4 d-flex justify-content-around" *ngFor="let skillset of skillsetdata">
+                <div class="card my-5" style="width:400px;border:1px solid rgb(227, 219, 219);">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center"><img src="{{skillset.logo}}" height="90px"
+                                width="90px"></div>
+                        <div class="d-flex justify-content-center">
+                            <h5 class="card-title">{{skillset.skillName}}</h5>
+                        </div>
+                        <p class="card-text" style="text-align:center">{{skillset.desc}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Another Skill section -->
+    <!-- <div class="row" style="background-color:#118AB2;">
+        <div class="row">
+            <h2 class="d-flex justify-content-center py-3" style="color: white">Skills</h2>
+            <div class="row my-5" style="margin: 25px;">
+                <div class="col-6 mx-5 p-5 skillWhiteBox">
+                    <div class="row mt-2" *ngFor="let skillset of skillsetdata">
+                        <div class="col-2">
+                            <img src="{{skillset.logo}}" [attr.height]="skillset.height" [attr.width]="skillset.width">
+                        </div>
+                        <div class="col-2 d-flex align-items-center">
+                            <span>{{skillset.skillName}}</span>
+                        </div>
+                        <div class="col-8 pt-2">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" [style.width]="skillset.value"
+                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 mx-4 p-5 skillWhiteBox" style="background-color: white;width:650px">
+                    <div class="row" *ngFor="let skillset of skillsetdata">
+                        <div class="col-2">
+                            <img src="{{skillset.logo}}" height="50px" width="50px">
+                        </div>
+                        <div class="col-2">
+                            <span>{{skillset.skillName}}</span>
+                        </div>
+                        <div class="col-7">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%"
+                                    aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    
+</div>

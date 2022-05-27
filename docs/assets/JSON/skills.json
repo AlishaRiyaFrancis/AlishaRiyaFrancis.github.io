@@ -1,0 +1,44 @@
+{
+    "skillSet":[
+        {
+            "skillName":"HTML",
+            "logo":"../../../assets/images/htmlLogo.png",
+            "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique quibusdam?",
+            "value":"90%",
+            "height":"35px",
+            "width":"35px"
+        },
+        {
+            "skillName":"CSS",
+            "logo":"../../../assets/images/csslogo.png",
+            "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique quibusdam?",
+            "value":"70%",
+            "height":"35px",
+            "width":"35px"
+        },
+        {
+            "skillName":"Bootstrap",
+            "logo":"../../../assets/images/bootstraplogo.png",
+            "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique quibusdam?",
+            "value":"80%",
+            "height":"30px",
+            "width":"30px"
+        },
+        {
+            "skillName":"Angular",
+            "logo":"../../../assets/images/angularLogo.png",
+            "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique quibusdam?",
+            "value":"60%",
+            "height":"35px",
+            "width":"40px"
+        },
+        {
+            "skillName":"Javascript",
+            "logo":"../../../assets/images/javascript.png",
+            "desc":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. In facilis fugiat similique quibusdam?",
+            "value":"70%",
+            "height":"25px",
+            "width":"25px"
+        }
+    ]
+}
